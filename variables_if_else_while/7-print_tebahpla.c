@@ -5,7 +5,7 @@
  * main - prints the lowercase alphabet in reverse.
  *
  *
- * Returns: Always (0)
+ * Returns: Always 0
  */
 int main(void)
 {
