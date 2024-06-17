@@ -1,11 +1,10 @@
 #include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
  * main - prints the lowercase alphabet in reverse.
  *
  *
- * Returns: Always 0
+ * Return: Always 0
  */
 int main(void)
 {
