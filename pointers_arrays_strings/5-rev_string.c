@@ -13,12 +13,11 @@ void rev_string(char *s)
 
 	for (longitud = 0; s[longitud] != '\0'; longitud++)
 	{
-		
 	}
-	for (i=0; i < longitud / 2; i++)
+	for (i = 0; i < longitud / 2; i++)
 	{
 		caracter = s[i];
-		s[i]= s[longitud - i - 1];
+		s[i] = s[longitud - i - 1];
 		s[longitud - i - 1] = caracter;
 	}
 }
