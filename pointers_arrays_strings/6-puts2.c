@@ -1,4 +1,12 @@
 #include "main.h"
+/**
+ * puts2 - print even numbers
+ *
+ * @str: numbers pares
+ *
+ * Return: no return
+ *
+ */
 void puts2(char *str)
 {
 	int a;
