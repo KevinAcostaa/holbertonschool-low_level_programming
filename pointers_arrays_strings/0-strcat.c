@@ -3,7 +3,7 @@
  * _strcat - join two string
  *
  * @dest: firts string
- * @dest : second string
+ * @src : second string
  *
  * Return: returns two string
  */
