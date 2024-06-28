@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _sqrt_raiz_c - description 
+ * _sqrt_raiz_c - description
  * @x: variable
  * @n: variable
  * Return: always
