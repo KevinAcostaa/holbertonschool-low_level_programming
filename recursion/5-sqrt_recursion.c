@@ -1,6 +1,5 @@
 #include "main.h"
 /**
- * _sqrt_recursion - kalalalaa
  * _sqrt_raiz - function that returns the natural square root a number
  * @x: variable
  * @n: variable
@@ -18,6 +17,11 @@ int _sqrt_raiz(int x, int n)
 
 	return (_sqrt_raiz(x, n));
 }
+/**
+ * _sqrt_recursion - lalalala
+ * @n: n
+ * Return: always
+ */
 int _sqrt_recursion(int n)
 {
 	int x = 1;
