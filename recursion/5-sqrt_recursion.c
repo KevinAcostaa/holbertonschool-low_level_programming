@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _sqrt_raiz_c - description
+ * _sqrt_raiz - function that returns the natural square root a number
  * @x: variable
  * @n: variable
  * Return: always
  */
-int _sqrt_raiz_c(int x, int n)
+int _sqrt_raiz(int x, int n)
 {
 	if (x > n)
 		return (-1);
@@ -15,11 +15,11 @@ int _sqrt_raiz_c(int x, int n)
 	else
 		return (x);
 
-	return (_sqrt_raiz_c(x, n));
+	return (_sqrt_raiz(x, n));
 }
 int _sqrt_recursion(int n)
 {
 	int x = 1;
 
-	return (_sqrt_raiz_c(x, n));
+	return (_sqrt_raiz(x, n));
 }
