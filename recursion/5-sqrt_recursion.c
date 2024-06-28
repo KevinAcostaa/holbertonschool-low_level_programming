@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _sqrt_recursion - assasa
- * raiz_c - that returns the natural square root of a number
+ * raiz_c - assasasasasa
  * @x: variable
  * @n: variable
  * Return: always
