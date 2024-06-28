@@ -1,9 +1,11 @@
 #include "main.h"
 /**
- * _sqrt_recursion - assasa
- * _sqrt_raiz_c - assasasasasa
+ * _sqrt_raiz_c - description
+ * 
  * @x: variable
+ * 
  * @n: variable
+ * 
  * Return: always
  *
  */
