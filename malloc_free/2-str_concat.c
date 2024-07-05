@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stdlib.h>
 /**
- *
- *
- *
+ * str_concat - fucntion
+ * @s3: pointer
+ * Return: always
  */
 char *str_concat(char *s1, char *s2)
 {
@@ -41,6 +42,6 @@ char *str_concat(char *s1, char *s2)
 	{
 		s3[i + j] = s2[j];
 	}
-	s3[x] = '\0';
+	s3[i] = '\0';
 	return (s3);
 }
