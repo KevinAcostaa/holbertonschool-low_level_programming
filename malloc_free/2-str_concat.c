@@ -1,8 +1,10 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * str_concat - fucntion
+ * str_concat - function concatena string
  * @s3: pointer
+ * @s1: frist string
+ * @s2: second string
  * Return: always
  */
 char *str_concat(char *s1, char *s2)
