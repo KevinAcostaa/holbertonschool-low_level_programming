@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * main - function
+ * alloc_grid - function
  * @height: altura
  * @width: ancho
  * Return: always
@@ -25,7 +25,7 @@ int **alloc_grid(int width, int height)
 	}
 	for (i = 0; i < height; i++)
 	{
-		bidimensional[i] = malloc(width * sizeof(int*));
+		bidimensional[i] = malloc(width * sizeof(int));
 
 		if (bidimensional[i] == NULL)
 		{
