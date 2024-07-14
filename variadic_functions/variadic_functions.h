@@ -9,4 +9,5 @@ typedef struct data
 	char* type;
 	void (*f)(va_list p);
 } data;
+
 #endif
