@@ -14,6 +14,6 @@ void print_all(const char * const format, ...);
 typedef struct data
 {
 	char *type;
-	void (*f)(va_list p);
+	void (*f)(va_list r);
 } data;
 #endif
