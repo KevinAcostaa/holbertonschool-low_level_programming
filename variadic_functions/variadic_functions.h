@@ -9,7 +9,7 @@ void print_all(const char * const format, ...);
 
 typedef struct data
 {
-	char* type;
+	char *type;
 	void (*f)(va_list p);
 } data;
 #endif
