@@ -7,7 +7,7 @@
 typedef struct dog dog_t;
 
 /**
- * struct dog - struct 
+ * struct dog - struct
  * @name: name
  * @age: age
  * @owner: owner
