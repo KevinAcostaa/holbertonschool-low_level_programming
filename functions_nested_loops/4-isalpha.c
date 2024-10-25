@@ -5,7 +5,7 @@
  * Return: 1 or 0
  */
 /**
- * Otra manera de lograr el mismo objetivo con menos codigo:
+ * Otra manera de lograr el mismo obtivo
  * return ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'));
  *
  */
