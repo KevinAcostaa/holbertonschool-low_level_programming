@@ -5,7 +5,7 @@
  * Return: 1 or 0
  */
 /**
- * Otra manera de lograr el mismo objetivo es cambiando el body de la function a:
+ * Otra manera de lograr el mismo objetivo con menos codigo:
  * return ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'));
  *
  */
