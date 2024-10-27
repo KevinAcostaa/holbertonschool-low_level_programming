@@ -2,7 +2,8 @@
 #include "main.h"
 /**
  * print_to_98 - function
- * @n - parametro
+ *
+ * @n: parametro
  *
  */
 void print_to_98(int n)
