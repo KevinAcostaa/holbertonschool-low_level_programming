@@ -5,18 +5,12 @@
  */
 int _isupper(int c)
 {
-	int i;
-
-	for (i = 'A'; i <= 'Z'; i++)
+	if (c <= 'Z')
 	{
-		if (c == 'A' && c <= 'Z')
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+		return (1);
 	}
-	return (0);
+	else
+	{
+		return (0);
+	}
 }
