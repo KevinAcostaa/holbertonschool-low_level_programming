@@ -29,7 +29,7 @@ int main()
 		}
 		if (i < 100)
 		{
-			printf(" ");
+			putchar(' ');
 		}
 	}
 	putchar('\n');
