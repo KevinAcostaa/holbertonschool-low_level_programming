@@ -3,13 +3,13 @@
 /**
  * main - function
  *
- *
+ * Return: 0
  */
 int main()
 {
 	int i;
 
-	for (i = 0; i <= 99; i++)
+	for (i = 0; i <= 100; i++)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -27,7 +27,11 @@ int main()
 		{
 			printf("%d", i);
 		}
-			printf("\n");
+		if (i < 100)
+		{
+			printf(" ");
+		}
 	}
+	putchar('\n');
 	return (0);
 }
