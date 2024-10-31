@@ -8,6 +8,7 @@ void rev_string(char *s)
 {
 	int leng = 0;
 	int i;
+	char cadena;
 
 	while (s[leng] != '\0')
 	{
@@ -15,7 +16,7 @@ void rev_string(char *s)
 	}
 	for (i = 0; i < leng / 2; i++)
 	{
-		char cadena = s[i];
+		cadena = s[i];
 
 		s[i] = s[leng - 1 - i];
 		s[leng - 1 - i] = cadena;
