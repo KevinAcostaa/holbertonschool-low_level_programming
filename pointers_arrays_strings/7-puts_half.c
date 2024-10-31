@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- *
- *
+ * puts_half - function
+ * @str: pointer
  *
  */
 void puts_half(char *str)
