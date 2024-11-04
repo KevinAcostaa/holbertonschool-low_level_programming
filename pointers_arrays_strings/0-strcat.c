@@ -4,6 +4,7 @@
  *
  * @dest: cadena
  * @src: cadena
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
 {
