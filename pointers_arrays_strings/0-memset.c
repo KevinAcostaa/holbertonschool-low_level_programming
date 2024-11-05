@@ -3,6 +3,7 @@
  * _memset - function
  * @b: char
  * @n: integer
+ * @s: pointer
  * Return: pointer
  */
 char *_memset(char *s, char b, unsigned int n)
