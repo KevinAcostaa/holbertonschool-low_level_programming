@@ -3,6 +3,7 @@
  * _strlen_recursion - function
  *
  * @s: string
+ * Return: longitud string
  */
 int _strlen_recursion(char *s)
 {
