@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *
+ * main - function
+ * @argc: argc
+ * @argv: argv
+ * Return: return
  */
 int main(int argc, char **argv)
 {
