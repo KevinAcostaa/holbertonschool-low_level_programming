@@ -3,6 +3,7 @@
 /**
  * free_grid - fucntion
  * @height: height
+ * @grid: grid
  * Return: grid
  */
 void free_grid(int **grid, int height)
