@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * _calloc - function
- * @nmemb; nmemb
+ * @nmemb: nmemb
  * @size: size
  * Return: ptr
  */
