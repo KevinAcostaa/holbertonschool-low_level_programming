@@ -20,26 +20,21 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		s2 = "";
 	}
-
 	for (long1 = 0; s1[long1] != '\0'; long1++)
 	{
 	}
 	for (long2 = 0; s2[long2] != '\0'; long2++)
 	{
 	}
-
 	if (n >= long2)
 	{
 		n = long2;
 	}
-
 	ptr = malloc((long1 + n + 1) * sizeof(char));
-
 	if (ptr == NULL)
 	{
 		return (NULL);
 	}
-
 	for (i = 0; i < long1; i++)
 	{
 		ptr[i] = s1[i];
