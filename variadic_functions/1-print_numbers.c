@@ -10,6 +10,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int l;
 	va_list p;
+
 	if (separator == NULL)
 	{
 		separator = "";
